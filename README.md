@@ -5,5 +5,6 @@ This python program demonstrates image classification with stratified k-fold cro
 * There are 5 DL models in the code and the best 3 performing models are selected for the final ensemble soft voting.
 * Change the batch size, epoch, and the structure of the CNN model according to your needs. Here, some naive values are provided without any hyper-parameter tuning.
 * Change the contents of DS folder according to your dataset/images. But initially keep all the images inside the sub-folders of the "train" folder. The program will take care of splitting the test images and validation images inside the code. Also, don't forget to rename your sub-folders inside train, test and validation folder according to your classes.
-
+# Results
+* In the following figure, the average accuracy, precision, and f1-score of the k-fold CV is illustrated for the 5 DL models.
 ![image](https://user-images.githubusercontent.com/27827295/204691256-cc9996c9-d977-41d5-8a06-7f23257ad483.png)
