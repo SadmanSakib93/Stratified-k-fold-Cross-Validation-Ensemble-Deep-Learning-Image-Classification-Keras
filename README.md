@@ -8,3 +8,4 @@ This python program demonstrates image classification with stratified k-fold cro
 # Results
 * In the following figure, the average accuracy, precision, and f1-score of the k-fold CV is illustrated for the 5 DL models.
 ![image](https://user-images.githubusercontent.com/27827295/204691256-cc9996c9-d977-41d5-8a06-7f23257ad483.png)
+* The top 3 DL models are selected as the final models to be used in the ensemble technique. 
